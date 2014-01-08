@@ -1,0 +1,15 @@
+#!/bin/bash
+
+## Simple script for executing Android Rom Kitchen
+
+## Set this variable to the kitchen install directory
+export KITCHEN_HOME="/usr/src/Android-Kitchen"
+
+## Change to the kitchen home
+cd "$KITCHEN_HOME"
+
+## Execute Kitchen
+clear
+./menu
+
+exit $?
